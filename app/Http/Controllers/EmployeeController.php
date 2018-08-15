@@ -10,8 +10,8 @@ class EmployeeController extends Controller
         return view('employees');
     }
 
-    public function create(){
-        
+    public function create(Request $request){
+        dd($request);
     }
 
     public function store(){
